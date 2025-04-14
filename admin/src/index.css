@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+  --color-my-purple: #FF5252;
+  --color-hover-text:#FFFFFF;
+  --color-child:#A50036
+  /* ... */
+}
+ 
+

@@ -1,0 +1,54 @@
+
+
+[
+    {
+        "id": 1,
+        "title": "Dashboard"
+    },
+     {
+        "id":2,
+        "title":"User"
+     },
+     {
+        "id":3,
+        "title":"Cart"
+     },
+     {
+        "id":4,
+        "title":"Category",
+        "children":[{"id":5, "title":"Add Category"}]
+     },
+     {
+        "id":6,
+        "title":"Order"
+     },
+     {
+        "id":7,
+        "title":"Product",
+        "children":[{"id":8, "title":"Add Product"}]
+     },
+     {
+        "id":9,
+        "title":"Banner"
+        
+     },
+     {
+        "id":10,
+        "title":"Brand"
+        
+     },
+     {
+        "id":11,
+        "title":"WebInfo",
+       "children":[
+            {"id":12, "title":"Web Details"},
+            {"id":13, "title":"Contact Us"}
+
+        ]
+     },
+     {
+        "id":14,
+        "title":"Log Out"
+        
+     }
+]

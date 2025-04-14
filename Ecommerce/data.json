@@ -1,0 +1,31 @@
+[
+    {
+        "id":1,
+        "name":"Fashion",
+        "isFolder":true,
+        "children":[{"id":2, "name":"Apparel", "isFolder":true, "children":[{"id":3, "name":"Smart Tablet", "isFolder":false}, {"id":4, "name":"Crepe T-Shirt", "isFolder":false}]},
+        {"id":5, "name":"Outerwear", "isFolder":true, "children":[{"id":6, "name":"Wooden Chair", "isFolder":false}, {"id":7, "name":"Sneakers Shoes", "isFolder":false}]}]
+    },
+    {
+        "id":8,
+        "name":"Jewellery",
+        "isFolder":false
+    },
+    {
+        "id":9,
+        "name":"Cosmetics",
+        "isFolder":false
+    },
+  
+    {
+        "id":10,
+        "name":"Accessories",
+        "isFolder":false
+    },
+    {
+        "id":11,
+        "name":"Electronic",
+        "isFolder":false
+    }
+  
+]

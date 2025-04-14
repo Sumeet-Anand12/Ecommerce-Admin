@@ -1,0 +1,74 @@
+.homeCat {
+    width: 100%;
+    padding: 0px 40px;
+   background-color: white;
+    border-radius: 8px !important;
+    box-shadow: 0px 0px 10px -5px #2d3548 !important;
+    overflow: hidden;   
+    margin-top: 30px;
+    
+}
+   
+.homeCat-wrapper{
+    
+    overflow: hidden;
+}
+/*  */
+.homeCat img {
+    margin-top: 30px; 
+     width: 80%;
+     height: auto;
+     margin-left: 14px;
+    object-fit: cover;
+    object-position: end !important;
+    transition: transform 0.3s ease;
+    
+}
+.homeCat:hover img{
+   transform: scale(1.1);
+
+}
+    
+
+
+/* .homeCat img:hover {
+    transform: scale(1.1);
+} */
+
+.homeCat span {
+    position: relative;
+    padding: 0.8rem 0.5rem;
+    display: inline-block; 
+    font-size: 1rem;
+    /* bottom: 50px; */
+}
+
+.homeCat span:hover {
+    color: red !important;
+}
+
+.homeCat-wrapper .swiper-button-prev, 
+    .homeCat-wrapper .swiper-button-next {
+        background-color: #EE3232;
+        width: 30px !important;
+        height: 29px !important;
+        text-transform: none !important;
+        border-radius: 30px;
+        letter-spacing: 0;
+        font-variant: initial;
+        line-height: 1;
+        position: absolute;
+        transform: translateY(30px);
+    }
+    
+    .homeCat-wrapper .swiper-button-next {
+        right: 10px !important;
+    }
+    
+    .homeCat-wrapper .swiper-button-prev::after,
+    .homeCat-wrapper .swiper-button-next::after {
+        font-size: 15px !important;
+        color: #fff;
+        font-weight: 700;
+    }
+    

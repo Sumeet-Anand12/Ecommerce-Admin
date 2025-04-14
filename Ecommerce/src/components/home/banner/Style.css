@@ -1,0 +1,189 @@
+/* Banner start */
+
+
+/* Apply to the wrapper for overall transition effect */
+
+
+/* Apply to each individual slide */
+.my-banner .swiper-slide {
+    opacity: 0;
+    /* width: 98% !important; */
+    transform: translateX(20);
+    /* transition-property: opacity, transform;
+    
+    transition-duration: 0.9s;
+   
+    transition-timing-function: ease-in-out !important; */
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    box-sizing: content-box !important;
+    transition-delay: 0.9s !important;
+  }
+  
+  /* When slide is active, set opacity to 1 */
+  .my-banner .swiper-slide-active {
+    opacity: 1 !important;
+    transform: translateX(0);
+    transition-delay: 0.9s; /* Delay the activation */
+  }
+  
+  /* .my-banner .swiper-slide img {
+    width: 100%;
+    height:33.125rem !important;
+    border-radius: 10px;
+    background-position: center;
+    object-fit: cover !important;
+    object-position: center !important;
+  
+  } */
+  
+   .banner-content {
+    position: absolute;
+    width: 38%;
+    right: 100px;
+    top: 120px;
+    color: black;
+    letter-spacing: 0;
+    opacity: 0;
+    transform: translateX(120px);
+    transition: opacity 0.3s ease-in-out, transform 1s ease-in-out;
+    transition-delay: 0.3s;
+    padding-right: 20px;
+  }
+   .banner-content.banner-content-active {
+    opacity: 1; 
+    transform: translateX(10px); /* Reset the position */
+  
+  }
+  .my-banner .banner-content>span {
+    display: inline-block;
+    font-size: 20px;
+    padding-bottom: 15px;
+  
+  }
+  
+  .banner-content .content h2 {
+    
+    /* Block-level element */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size: 40px;
+    color: #111111;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .content li span{
+    font-size: 1.2rem;
+  }
+  
+   .content li span:nth-child(2){
+    padding-left: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #EE3232;
+   }
+  
+   .content-btn {
+    transition: all 0.7s ease-in-out !important; /* Apply transition to the initial state */
+  }
+  .my-banner .swiper-slide .content-btn:hover{
+      background-color: #000000 !important;
+     
+    }
+  
+    .my-banner .swiper-button-prev, 
+    .my-banner .swiper-button-next {
+        background-color: #EE3232;
+        width: 30px !important;
+        height: 29px !important;
+        text-transform: none !important;
+        border-radius: 30px;
+        letter-spacing: 0;
+        font-variant: initial;
+        line-height: 1;
+        position: absolute;
+        transform: translateY(20px);
+    }
+    
+    .my-banner .swiper-button-next {
+        right: 51px !important;
+    }
+    
+    .my-banner .swiper-button-prev::after,
+    .my-banner .swiper-button-next::after {
+        font-size: 15px !important;
+        color: #fff;
+        font-weight: 700;
+    }
+    
+  /* .banner .col-lg-9{
+    width: 73% !important;
+  }
+  .banner .col-lg-3{
+    width: 27% !important;
+  }
+   */
+  .banner-img{
+    background-image: url("../../../assets/Image/Banner/sample-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: calc(100vh - 240px );
+    border-radius: 10px;
+    
+  }
+
+  .banner-img2{
+    background-image: url("../../../assets/Image/Banner/sample-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: calc(100vh - 240px );
+    border-radius: 10px;
+    
+  }
+  .sub-banner-first{
+    background-image: url("../../../assets//Image/Banner/sub-banner-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: calc(50vh - 140px  );
+    border-radius: 10px;
+  }
+  .sub-banner-second{
+    background-image: url("../../../assets//Image/Banner/sub-banner-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: calc(50vh - 140px  );
+    border-radius: 10px;
+  }
+  .sub-banner-first{
+    position: relative;
+    transition: transform 0.9s linear;
+  }
+
+  .img-container{
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.9s linear;
+    border-radius: 10px;
+  }
+
+  .img-container:hover .sub-banner-first{
+    cursor: pointer;
+    transform: scale(1.1);
+   
+
+  }
+  .sub-banner-second{
+    position: relative;
+    transition: transform 0.9s linear;
+  }
+  
+  .img-container:hover .sub-banner-second{
+    cursor: pointer;
+    transform: scale(1.1);
+   
+
+  }
+  
